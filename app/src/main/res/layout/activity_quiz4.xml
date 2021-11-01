@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz4">
+
+    <Button
+        android:id="@+id/return3"
+        android:layout_width="169dp"
+        android:layout_height="53dp"
+        android:text="Previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/result44"
+        android:layout_width="348dp"
+        android:layout_height="84dp"
+        android:text="@string/what_is_apk_in_android"
+        android:textAlignment="center"
+        android:textColor="#5716E6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="352dp"
+        android:layout_height="235dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result44">
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/android_packaging_kit"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/android_packages" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/android_pack" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/none_of_the_above" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/startquiz4btn"
+        android:layout_width="169dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
