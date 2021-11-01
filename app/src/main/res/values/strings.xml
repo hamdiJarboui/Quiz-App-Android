@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quiz app project</string>
+    <string name="welcome_to_android_quiz">Welcome To Android Quiz</string>
+
+    <string name="what_is_apk_in_android">What is APK in android?</string>
+    <string name="android_packages">Android packages</string>
+    <string name="android_packaging_kit">Android packaging kit</string>
+    <string name="android_pack">Android pack</string>
+    <string name="none_of_the_above">None of the above.</string>
+
+    <string name="how_to_get_current_location_in_android">How to get current location in android?</string>
+    <string name="using_location_provider">Using location provider</string>
+    <string name="sqlite">SQlite</string>
+    <string name="using_with_gprs">Using with GPRS</string>
+    <string name="using_with_gprs_and_using_location_provider">Using with GPRS and Using location provider</string>
+    <string name="how_to_stop_the_services_in_android">How to stop the services in android?</string>
+    <string name="stopself_and_stopservice">stopSelf() and stopService()</string>
+    <string name="finish">finish()</string>
+
+    <string name="system_exit">system.exit().</string>
+    <string name="by_manually">By manually</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="todo">TODO</string>
+    <string name="next">next</string>
+    <string name="sqlite_database">SQlite database</string>
+    <string name="cursor">Cursor</string>
+    <string name="shared_preferences">Shared Preferences</string>
+    <string name="not_possible">Not possible</string>
+    <string name="how_to_store_heavy_structured_data_in_android">How to store heavy structured data in android?</string>
+    <string name="votre_score_est">Votre score est :</string>
+    <string name="start_new_quiz">Start New Quiz</string>
+    <string name="all_of_above">All of above</string>
+    <string name="tab_activity">Tab Activity</string>
+    <string name="preference_activity">Preference Activity</string>
+    <string name="launcher_activity">Launcher Activity</string>
+    <string name="which_of_the_following_is_are_are_the_subclasses_in_android">WHich of the following is/are are the subclasses in Android?</string>
+</resources>
